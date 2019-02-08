@@ -1,15 +1,8 @@
 # site settings
-<<<<<<< HEAD
 title: Nilava Chowdhury
 subtitle: Hi! My name is Nilava
 email: nilavachowdhury99@gmail.com
 description: Hi! My name is Nilava
-=======
-title: Forty
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
->>>>>>> 7fdd1fb5d6152e648fb1312cb9811b4dae1ab234
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nilavachowdhury.github.io"
 author:
