@@ -35,8 +35,8 @@ $(document).ready(function(){
                     minlength: "your name must consist of at least 2 characters"
                 },
                 subject: {
-                    required: "come on, you have a web address, don't you?",
-                    minlength: "your address must consist of at least 4 characters"
+                    required: "come on, you have a subject in mind, don't you?",
+                    minlength: "your subject must consist of at least 4 characters"
                 },
                 email: {
                     required: "no email, no message"
@@ -49,8 +49,8 @@ $(document).ready(function(){
             submitHandler: function(form) {
                 $(form).ajaxSubmit({
                     type:"POST",
-                    data: $(form).serialize(),
-                    url:"contact_process.php",
+                    //data: $(form).serialize(),
+                    url:"https://getsimpleform.com/messages?form_api_token=44bc791b0d663f435be955ce9880ef31",
                     success: function() {
                         $('#contactForm :input').attr('disabled', 'disabled');
                         $('#contactForm').fadeTo( "slow", 0.15, function() {
