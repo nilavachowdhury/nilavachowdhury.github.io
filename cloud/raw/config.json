@@ -74,21 +74,6 @@
     ]
   },
   {
-    "title":"Admit Card",
-    "drawable":"",
-    "submenu":"SAP",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"WebView",
-        "provider":"sapwebview",
-        "arguments":[
-          "http://kiitportal.kiituniversity.net/irj/portal?NavigationTarget=navurl%3A%2F%2Fb10c77410c8ed833b1883b28d395b9f6&&sapDocumentRenderingMode=Edge&CurrentWindowId=WID1550864769101"
-        ]
-      }
-    ]
-  },
-  {
     "title":"Holiday List",
     "drawable":"",
     "submenu":"Extras",
