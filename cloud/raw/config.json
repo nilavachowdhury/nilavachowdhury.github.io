@@ -74,6 +74,21 @@
     ]
   },
   {
+    "title":"Feedback Form",
+    "drawable":"",
+    "submenu":"SAP",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"WebView",
+        "provider":"sapwebview",
+        "arguments":[
+          "http://kiitportal.kiituniversity.net/irj/portal?NavigationTarget=navurl%3A%2F%2Fe6d4ad415797ecb122e83ffbf2eeb961&&sapDocumentRenderingMode=Edge&CurrentWindowId=WID1553525876803"
+        ]
+      }
+    ]
+  },
+  {
     "title":"Admit Card",
     "drawable":"",
     "submenu":"SAP",
